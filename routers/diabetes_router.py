@@ -11,4 +11,4 @@ async def patient_predict(data: PatientData):
     print("patient data ", data.identification_number)
 
     prediction = diabetes_prediction(data)
-    return {"prediction": prediction}
+    return {"prediccion:": prediction}
